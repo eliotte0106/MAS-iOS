@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct UserInfo: Codable {
+    let submitterName: String
+    let submitterPhone: String
+    let submitterEmail: String
+}
