@@ -10,6 +10,7 @@
 		CF0760922B5F3A910078B671 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760912B5F3A910078B671 /* CameraViewModel.swift */; };
 		CF0760942B5F3ACC0078B671 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760932B5F3ACC0078B671 /* Camera.swift */; };
 		CF0760962B5F3D910078B671 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760952B5F3D910078B671 /* utils.swift */; };
+		CF0760982B5F528F0078B671 /* SelectedPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */; };
 		CFA3D20B2B5B4B3200343DE9 /* mas_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D20A2B5B4B3200343DE9 /* mas_iosApp.swift */; };
 		CFA3D20D2B5B4B3200343DE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */; };
 		CFA3D20F2B5B4B3400343DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA3D20E2B5B4B3400343DE9 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		CF0760912B5F3A910078B671 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 		CF0760932B5F3ACC0078B671 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		CF0760952B5F3D910078B671 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPhotoView.swift; sourceTree = "<group>"; };
 		CFA3D2072B5B4B3100343DE9 /* mas-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mas-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA3D20A2B5B4B3200343DE9 /* mas_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mas_iosApp.swift; sourceTree = "<group>"; };
 		CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */,
 				CFA3D21F2B5B66C600343DE9 /* SubmitterInfoView.swift */,
+				CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				CFA3D21D2B5B58EB00343DE9 /* UserInfo.swift in Sources */,
 				CFA3D20B2B5B4B3200343DE9 /* mas_iosApp.swift in Sources */,
 				CF0760942B5F3ACC0078B671 /* Camera.swift in Sources */,
+				CF0760982B5F528F0078B671 /* SelectedPhotoView.swift in Sources */,
 				CF0760922B5F3A910078B671 /* CameraViewModel.swift in Sources */,
 				CF0760962B5F3D910078B671 /* utils.swift in Sources */,
 			);
