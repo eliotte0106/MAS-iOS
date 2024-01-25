@@ -300,12 +300,12 @@ class Camera: NSObject {
 
             if photoOutput.availablePhotoCodecTypes.contains(.hevc) {
                 photoSettings = AVCapturePhotoSettings(format: [AVVideoCodecKey: AVVideoCodecType.hevc])
-                photoSettings.isHighResolutionPhotoEnabled = true
+                //photoSettings.isHighResolutionPhotoEnabled = true
             }
             
             let isFlashAvailable = self.deviceInput?.device.isFlashAvailable ?? false
             photoSettings.flashMode = isFlashAvailable ? .auto : .off
-            photoSettings.isHighResolutionPhotoEnabled = true
+            //photoSettings.isHighResolutionPhotoEnabled = true
             if let previewPhotoPixelFormatType = photoSettings.availablePreviewPhotoPixelFormatTypes.first {
                 photoSettings.previewPhotoFormat = [kCVPixelBufferPixelFormatTypeKey as String: previewPhotoPixelFormatType]
             }
