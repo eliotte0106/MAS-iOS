@@ -11,4 +11,6 @@ struct UserInfo: Codable {
     let submitterName: String
     let submitterPhone: String
     let submitterEmail: String
+    let agreeToTerms: Bool
+    let latlong: LatLong
 }
