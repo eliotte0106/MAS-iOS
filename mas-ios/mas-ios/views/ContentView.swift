@@ -18,8 +18,7 @@ struct ContentView: View {
     private var service = SafeCarService()
     
     @State var isPresented = false
-    //@State var isCameraPreviewPresented = false
-    
+
     private static let barHeightFactor = 0.15
     
     var body: some View {
@@ -36,10 +35,9 @@ struct ContentView: View {
                 
                 HStack {
                     Button {
-                        //logger.debug("send")
                         viewModel.takePhoto.toggle()
                     } label: {
-                        Text("Take photo of your car")
+                        Text("Take a photo")
                             .padding(16)
                             .font(.system(size: 24))
                             .background(.black)
@@ -123,7 +121,7 @@ struct ContentView: View {
                 viewModel.camera.takePhoto()
             } label: {
                 Label {
-                    Text("Take a photo your car")
+                    Text("Take a photo")
                 } icon: {
                     ZStack {
                         Circle()
