@@ -11,6 +11,11 @@
 		CF0760942B5F3ACC0078B671 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760932B5F3ACC0078B671 /* Camera.swift */; };
 		CF0760962B5F3D910078B671 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760952B5F3D910078B671 /* utils.swift */; };
 		CF0760982B5F528F0078B671 /* SelectedPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */; };
+		CF2812B02B60796D00B7C60B /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2812AF2B60796D00B7C60B /* ThumbnailView.swift */; };
+		CF2812B22B60798600B7C60B /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2812B12B60798600B7C60B /* ViewFinderView.swift */; };
+		CF2812B42B607A4D00B7C60B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2812B32B607A4D00B7C60B /* LocationManager.swift */; };
+		CF2812B92B607C9900B7C60B /* safeCarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2812B82B607C9900B7C60B /* safeCarService.swift */; };
+		CF2812BB2B607E3F00B7C60B /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2812BA2B607E3F00B7C60B /* TermsAndConditionsView.swift */; };
 		CFA3D20B2B5B4B3200343DE9 /* mas_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D20A2B5B4B3200343DE9 /* mas_iosApp.swift */; };
 		CFA3D20D2B5B4B3200343DE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */; };
 		CFA3D20F2B5B4B3400343DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA3D20E2B5B4B3400343DE9 /* Assets.xcassets */; };
@@ -26,6 +31,11 @@
 		CF0760932B5F3ACC0078B671 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		CF0760952B5F3D910078B671 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedPhotoView.swift; sourceTree = "<group>"; };
+		CF2812AF2B60796D00B7C60B /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		CF2812B12B60798600B7C60B /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
+		CF2812B32B607A4D00B7C60B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CF2812B82B607C9900B7C60B /* safeCarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safeCarService.swift; sourceTree = "<group>"; };
+		CF2812BA2B607E3F00B7C60B /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
 		CFA3D2072B5B4B3100343DE9 /* mas-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mas-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA3D20A2B5B4B3200343DE9 /* mas_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mas_iosApp.swift; sourceTree = "<group>"; };
 		CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +67,14 @@
 			path = viewModel;
 			sourceTree = "<group>";
 		};
+		CF2812B72B607C8300B7C60B /* service */ = {
+			isa = PBXGroup;
+			children = (
+				CF2812B82B607C9900B7C60B /* safeCarService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		CFA3D1FE2B5B4B3100343DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +94,7 @@
 		CFA3D2092B5B4B3100343DE9 /* mas-ios */ = {
 			isa = PBXGroup;
 			children = (
+				CF2812B72B607C8300B7C60B /* service */,
 				CF0760902B5F39FA0078B671 /* viewModel */,
 				CFA3D21E2B5B66AB00343DE9 /* views */,
 				CFA3D21B2B5B58BF00343DE9 /* model */,
@@ -84,6 +103,7 @@
 				CFA3D2102B5B4B3400343DE9 /* Preview Content */,
 				CF0760932B5F3ACC0078B671 /* Camera.swift */,
 				CF0760952B5F3D910078B671 /* utils.swift */,
+				CF2812B32B607A4D00B7C60B /* LocationManager.swift */,
 			);
 			path = "mas-ios";
 			sourceTree = "<group>";
@@ -110,6 +130,9 @@
 				CFA3D20C2B5B4B3200343DE9 /* ContentView.swift */,
 				CFA3D21F2B5B66C600343DE9 /* SubmitterInfoView.swift */,
 				CF0760972B5F528F0078B671 /* SelectedPhotoView.swift */,
+				CF2812AF2B60796D00B7C60B /* ThumbnailView.swift */,
+				CF2812B12B60798600B7C60B /* ViewFinderView.swift */,
+				CF2812BA2B607E3F00B7C60B /* TermsAndConditionsView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -191,14 +214,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA3D2202B5B66C600343DE9 /* SubmitterInfoView.swift in Sources */,
+				CF2812B92B607C9900B7C60B /* safeCarService.swift in Sources */,
 				CFA3D2222B5B681D00343DE9 /* SubmitterInfoViewModel.swift in Sources */,
 				CFA3D20D2B5B4B3200343DE9 /* ContentView.swift in Sources */,
 				CFA3D21D2B5B58EB00343DE9 /* UserInfo.swift in Sources */,
 				CFA3D20B2B5B4B3200343DE9 /* mas_iosApp.swift in Sources */,
 				CF0760942B5F3ACC0078B671 /* Camera.swift in Sources */,
+				CF2812B22B60798600B7C60B /* ViewFinderView.swift in Sources */,
 				CF0760982B5F528F0078B671 /* SelectedPhotoView.swift in Sources */,
+				CF2812B42B607A4D00B7C60B /* LocationManager.swift in Sources */,
+				CF2812B02B60796D00B7C60B /* ThumbnailView.swift in Sources */,
 				CF0760922B5F3A910078B671 /* CameraViewModel.swift in Sources */,
 				CF0760962B5F3D910078B671 /* utils.swift in Sources */,
+				CF2812BB2B607E3F00B7C60B /* TermsAndConditionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -314,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -332,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mas-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 55MV67UC5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "use a camera";
@@ -362,6 +391,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mas-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 55MV67UC5R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "use a camera";
