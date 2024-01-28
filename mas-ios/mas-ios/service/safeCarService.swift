@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 class SafeCarService {
-    let BASE_URL = "http://[END-POINT-URL]:3000/api/request"
+    let BASE_URL = "http://[your ip]/api/request"
     
     init() {}
     

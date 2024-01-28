@@ -66,7 +66,7 @@ struct ContentView: View {
                         Text("Next")
                             .frame(width: 300, height: 40)
                             .foregroundColor(.white)
-                            .background(.blue)
+                            .background(.black)
                             .cornerRadius(6)
                     }
                 }
