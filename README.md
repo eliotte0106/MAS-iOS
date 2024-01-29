@@ -1,5 +1,10 @@
 # MAS iOS
 
+## Description
+* This app allows users to take photos of their current cars' status within some situations of robbery, accidents, and other things
+* Then, users will submit their request including info(name, email, phone number) to the admin page
+* From this info, the admin will be able see your request with info on the web
+
 ## Instructions
 * Clone this repo or download a zip of this repo
 * Open this app using preferred IDE (recommend XCode)
@@ -11,7 +16,9 @@
 * Front: Swift
 * Back: Firebase, MongoDB, NextAuth (Used in Web)
 * Web Repo: https://github.com/eliotte0106/MAS
+
 ## Demo
+* https://www.youtube.com/watch?v=d9Uew2PoKQ0
 
 ## References
 * https://developer.apple.com/develop/
