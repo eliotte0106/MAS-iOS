@@ -26,3 +26,5 @@
 * https://developer.apple.com/documentation/avfoundation/capture_setup/requesting_authorization_to_capture_and_save_media
 * https://developer.apple.com/documentation/corelocation/requesting_authorization_to_use_location_services
 * https://www.hackingwithswift.com/books/ios-swiftui/sending-and-receiving-orders-over-the-internet
+* https://www.youtube.com/watch?v=QJHmhLGv-_0&t=418s
+* https://www.youtube.com/watch?v=ZmPJBiwgZoQ
