@@ -10,6 +10,7 @@
 * Open this app using preferred IDE (recommend XCode)
 * The current build target is upper iOS 16.6 version
 * If you need to run this app in your physical device, go to project setting and change Deployment settings in Build Settings
+* If there is nothing to change, go to mas_iosApp.swift file, and build this app to run
 * Make sure all the connected devices should be using same ip address to interact with the web app (go to 'safeCarService' under a folder named 'service' and change BASE_URL to your current ip address)
 
 ## Tech Stack
